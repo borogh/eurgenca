@@ -1,0 +1,57 @@
+
+/* Topper */
+#topper, #topper_fixer, #topper_bar{
+	width:  100%;
+	height: 76px;
+	/*background-color: #000;*/
+	padding:0;
+	margin:0px;
+}
+
+#topper_bar{
+	background-color: #030303;/*#202020; #1C1C1C;*/
+	border-bottom: 1px solid #706E6F;
+}
+
+#topper_fixer{
+	position: fixed;
+	height:85px;
+	
+	/*background: rgba(0, 0, 0, 0.5) none;*/
+	z-index: 999;
+}
+
+#topper_fixer{
+	background: transparent url(./img/alpha30.png);
+}
+
+#top_navigacija{
+    width: 940px;
+    padding:0;
+    padding:1px 0;
+    
+}
+
+#top_navigacija p{
+	color: #F4E9EE;
+	font-family: 'Rokkitt', serif;
+	font-weight: 700;
+	text-align: right;
+	font-size: 40px;
+	margin-top:20px;
+	margin-right: 10px;
+	padding:0px;
+}
+
+#top_navigacija p .mini{
+	font-size: 0.6em;	
+}
+
+#logo{
+	height: 100px;
+	width: 350px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-left: 12px;
+	float: left;
+}

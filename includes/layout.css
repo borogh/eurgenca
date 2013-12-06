@@ -1,0 +1,43 @@
+body {
+	font-size: 0.8em;
+    font-family:verdana, arial, helvetica, sans-serif;
+    margin:0px;
+    padding:0px;
+    background-color: #606062;
+    /*text-align: center;*/
+    }
+
+body, h1, h2, div, p{
+	margin: 0px;
+	padding: 0;
+}
+
+img,a{
+    border: none;
+    text-decoration: none;
+}
+
+.centered{
+    width: 980px;
+    margin: 0px auto;
+}
+
+.clearer{
+    height:1px;
+    clear: both;
+}
+
+#sidebar_right{
+    float: right;
+    width: 230px;
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px;
+    position:relative;
+}
+
+#sidebar_left{
+    float: left;
+    width: 159px;
+}
+

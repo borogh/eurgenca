@@ -1,0 +1,6 @@
+
+/* Content */
+#wrapper{
+    border: 1px solid <?php echo CSS::getColor(CSS::COLOR_BORDER); ?>;
+    background-color: <?php echo CSS::getColor(CSS::COLOR_MAIN); ?>;
+}

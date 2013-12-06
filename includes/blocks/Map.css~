@@ -1,0 +1,60 @@
+#map{
+	margin: 20px auto 30px;
+}
+
+#map ul{
+	list-style: none;
+	
+}
+
+#map ul li.map_column{
+	width: 42%;
+	height: 180px;
+    display: block;
+    float: left;
+    margin: 0;
+    font-size: 2em;
+    font-family: 'Rokkitt', serif;
+	font-weight: 700;
+    color: #3F5163;
+}
+
+#map div.naslov{
+	color: #F4E9EE;
+}
+
+#map .telefon, #map .email{
+	color: #ECCC15;
+}
+
+#map .telefon{
+	font-size: 1.4em;
+}
+
+#map li#map_social{
+	width: 16%;
+}
+
+#map input, #map textarea{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 0.7em;
+	padding: 3px 10px;
+	border:2px solid #030303;
+	border-radius: 10px;
+}
+
+#map input#o_email, #map textarea{	
+	width: 80%;
+	background-color: #F4E9EE;
+	/*border-radius: 30px;*/
+}
+
+input#o_submit{
+	color: #F4E9EE;
+	background-color: #030303;
+	border-color: #3F5163;
+}
+
+#map ul li.map_column div{
+
+}

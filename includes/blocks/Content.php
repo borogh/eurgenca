@@ -1,0 +1,38 @@
+<div class="header centered">
+	<div class="right">
+		<h1>DOBRODOŠLI!</h1>
+		<h2>na straneh Elektro urgence</h2>
+		<ul>
+			<li>Se vam je ravnokar pokvaril televizor?</li>
+			<li>Ste našli tole stran na sosedovem računalniku ker vaš ne deluje?</li>
+			<li>Ali pa iščete pomoč oz. pravi naslov za popravilo vašega likalnika.</li>
+		</ul>
+		<p>	
+			Ne skrbite, v vseh teh primerih in mnogih drugih vam lahko pomagamo. Smo pravi naslov za popravilo vseh vrst električnih in elektronskih naprav. Od audio/video opreme, osebnih računalnikov, gospodinjskih aparatov, pa vse do industrijske elektronike...  
+		</p>
+	</div>
+</div>
+<div id="sub_content_shadow">
+	<div class="sub_content">
+		<div class="centered">
+			<img id="prenosnik" class="right" src="./img/test/krog_prenosnik.png" alt="Popravilo prenosnikov in odstranjevanje virusov." />
+			<!--h3>KAKO VAM LAHKO POMAGAMO</h3-->		
+			<p>Izvajamo tako popravila strojne opreme osebnih računalnikov in prenosnikov, kot tudi odpravljamo programske napake in čistimo viruse...
+			</p>		
+			<div class="clearer">&nbsp;</div>	
+		</div>
+		<div class="centered">
+			<img id="zabavna_elektronika" class="left" src="./img/test/zabavna_elektronika.png" alt="Popravilo naprav zabavne elektronike." />
+			<!--h3>KAKO VAM LAHKO POMAGAMO</h3-->		
+			<p>Izvajamo tako popravila strojne opreme osebnih računalnikov in prenosnikov, kot tudi odpravljamo programske napake in čistimo viruse...
+			</p>
+			<div class="clearer">&nbsp;</div>	
+		</div>	
+		<div class="centered">
+			<img id="bela_tehnika" class="right" src="./img/test/bela_tehnika_y.png" alt="Popravilo gospodinjskih aparatov." />
+			<!--h3>KAKO VAM LAHKO POMAGAMO</h3-->		
+			<p>Izvajamo popravila vseh vrst električnih gospodinjskih aparatov in bele tehnike...
+			</p>				
+		</div>
+	</div>
+</div>

@@ -1,0 +1,56 @@
+
+/* Menu */
+#menu{
+	background-color: #030303;
+}
+
+#menu ul{
+	padding: 0;
+	margin: 0;
+    list-style: none;
+    background-color: #999;
+    position: relative;
+}
+
+#menu ul li{
+	width: 33%;
+	height: 180px;
+    display: block;
+    float: left;
+    margin: 0;
+    margin-top: -70px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Rokkitt', serif;
+	font-weight: 700;
+    color: #3F5163;
+    position: relative;
+}
+
+#menu ul li .button{
+	height:  110px;
+	width: 117px;
+	/*border-radius: 30px;*/
+	margin: 0px auto;
+}
+
+li#menu_poslanstvo .button{
+	
+	background-image: url("./img/test/meter.png");
+}
+
+li#menu_pomoc .button{
+	background-color: #014971;
+}
+
+li#menu_vprasaj .button{
+	
+	background-image: url("./img/test/oblak.png");
+}
+
+li#menu_lokacija .button{
+	
+	background-image: url("./img/test/lokacija.png");
+}
+
+

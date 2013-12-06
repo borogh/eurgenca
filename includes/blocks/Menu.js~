@@ -1,0 +1,54 @@
+$("document").ready(function() {
+	$("li.button:last").toggleClass("rightBorder");
+	$("li.button").each(function() {
+		$(this).bind("mouseover", button_hover);
+	});
+});
+/*
+ *  Vnesi v polje id_s vse vrednosti ID iz elementov LI, ki so
+ *  razreda "button". Vrednost id_shown pa naj bo nastavljena na
+ *  trenutno viden opis gumba oz description. Skupaj z direction_shown
+ *  seveda :) prazen stavek oz. "" pomeni da puščica kaže desno oz.
+ *  da je opis gumba na desni strani gumba, stavek "_left" pa seveda
+ *  ravno obratno.
+ */
+
+var id_s = Array("isci", "vnesi", "vpisi", "pomoc");
+var id_shown = "vpisi";
+var direction_shown = "";
+function button_hover(evt) {
+	$("ul li[class*=button]").removeClass("over");
+	//$(this).toggleClass("over");
+	$(this).addClass("over");
+	if(($(this).attr("id") != id_shown)) {
+		var direction = getDirection($(this).attr("id"));
+		var id = $(this).attr("id") + "_description" + direction;
+		$("li#" + id_shown + "_description" + direction_shown).toggleClass("hideDescription");
+		$("li#" + id).toggleClass("hideDescription");
+		id_shown = $(this).attr("id");
+		direction_shown = direction;
+	}
+}
+
+/*
+ *  Funkcija getDirection zgolj poskrbi za vrednost direction v
+ *  zgornji funkciji, ki poskrbi da je prikazan description na
+ *  levi "_left" oz. desni "" strani gumba. Glede na to v katero
+ *  smer menuja se gibljemo z miško, zato da se premikanje skozi
+ *  možnosti zdi čim bolj naravno.
+ */
+
+function getDirection(id) {
+	var direction = "";
+	var id_new = null;
+	var id_old = null;
+	for(var i = 0; i < id_s.length; i++) {
+		if(id_s[i] == id)
+			id_new = i;
+		if(id_s[i] == id_shown)
+			id_old = i;
+	}
+	if(id_old < id_new)
+		direction = "_left";
+	return direction;
+}

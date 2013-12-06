@@ -1,0 +1,12 @@
+
+/* Footer */
+#footer{
+    /*height:70px;*/
+    background-color: black;
+}
+
+#copyright{
+    padding:20px;
+    color:#fff;
+    text-align:center;
+}
